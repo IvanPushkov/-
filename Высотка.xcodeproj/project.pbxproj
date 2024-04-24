@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D77B1C1B2B66885700D1FCAE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D77B1C1A2B66885700D1FCAE /* SnapKit */; };
+		D7864C4A2B53F6AB00675744 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7864C492B53F6AB00675744 /* Class.swift */; };
+		D7C811D62B515E58002D7CDD /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C811D52B515E58002D7CDD /* FirstVC.swift */; };
 		D7CF23822AD994D4007FDE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF23812AD994D4007FDE79 /* AppDelegate.swift */; };
 		D7CF23842AD994D4007FDE79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF23832AD994D4007FDE79 /* SceneDelegate.swift */; };
 		D7CF23862AD994D4007FDE79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF23852AD994D4007FDE79 /* ViewController.swift */; };
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7864C492B53F6AB00675744 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		D7C811D52B515E58002D7CDD /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		D7CF237E2AD994D4007FDE79 /* Высотка.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Высотка.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CF23812AD994D4007FDE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7CF23832AD994D4007FDE79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77B1C1B2B66885700D1FCAE /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +108,8 @@
 				D7CF23812AD994D4007FDE79 /* AppDelegate.swift */,
 				D7CF23832AD994D4007FDE79 /* SceneDelegate.swift */,
 				D7CF23852AD994D4007FDE79 /* ViewController.swift */,
+				D7864C492B53F6AB00675744 /* Class.swift */,
+				D7C811D52B515E58002D7CDD /* FirstVC.swift */,
 				D7CF23872AD994D4007FDE79 /* Main.storyboard */,
 				D7CF238A2AD994D7007FDE79 /* Assets.xcassets */,
 				D7CF238C2AD994D7007FDE79 /* LaunchScreen.storyboard */,
@@ -143,6 +151,9 @@
 			dependencies = (
 			);
 			name = "Высотка";
+			packageProductDependencies = (
+				D77B1C1A2B66885700D1FCAE /* SnapKit */,
+			);
 			productName = "Высотка";
 			productReference = D7CF237E2AD994D4007FDE79 /* Высотка.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = D7CF23752AD994D4007FDE79;
+			packageReferences = (
+				D77B1C192B66885600D1FCAE /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D7CF237F2AD994D4007FDE79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7864C4A2B53F6AB00675744 /* Class.swift in Sources */,
 				D7CF23862AD994D4007FDE79 /* ViewController.swift in Sources */,
+				D7C811D62B515E58002D7CDD /* FirstVC.swift in Sources */,
 				D7CF23822AD994D4007FDE79 /* AppDelegate.swift in Sources */,
 				D7CF23842AD994D4007FDE79 /* SceneDelegate.swift in Sources */,
 			);
@@ -445,6 +461,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +490,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +620,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D77B1C192B66885600D1FCAE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D77B1C1A2B66885700D1FCAE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D77B1C192B66885600D1FCAE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D7CF23762AD994D4007FDE79 /* Project object */;
 }
